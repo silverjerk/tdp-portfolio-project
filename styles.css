@@ -77,11 +77,22 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 15px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-width:5px;
+  border-color:#ff9904;
+}
+.desk-setup {
+  width:1200px;
+  margin:0 auto;
+}
+.desk-setup img {
+  width:100%;
+  margin:0 30px;
 }
 .tag {
   background-color: #efefef;
@@ -104,6 +115,10 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+.card.large-card {
+  max-width:1100px;
+  text-align: center;
 }
 .card:hover {
   border-color: #ff99ff;
